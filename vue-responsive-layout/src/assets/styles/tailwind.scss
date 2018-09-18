@@ -1,0 +1,17 @@
+@tailwind preflight;
+
+@tailwind components;
+ 
+@tailwind utilities;
+
+.flex-row-between-center {
+  @apply flex flex-row justify-between items-center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
